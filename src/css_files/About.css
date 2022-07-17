@@ -1,0 +1,55 @@
+div.about {
+    margin-left: 10vw;
+}
+
+hr.about-line {
+    margin-right: 10vw;
+}
+
+/* img.about-image {
+    display: block;
+    margin-top: auto;
+    margin-bottom: 100;
+    margin-left: 0;
+    margin-right: auto;
+    width: 50%;
+    float: left;
+} */
+
+.education {
+    position: relative;
+}
+
+button.button {
+    margin: 0;
+    display: flex;  
+    padding: 0;
+    --c: rgb(0, 0, 0);
+    color: var(--c);
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 15em;
+    height: 3em;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 2.5em;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+button.button:hover {
+    /* color:#FFF;
+    background-color:#000; */
+    box-shadow: inset 0 0 10px #ccc;
+}
+
+button#button {
+    margin: 0;
+    padding: 0;
+    width: 4.5vw;
+    text-align: center;
+}

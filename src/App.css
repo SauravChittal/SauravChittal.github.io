@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.outer-container {
   display: flex;
   flex-direction: column;
+  min-height: 85vh;
+}
+
+.page {
+  flex: 1;
+}
+
+footer {
+  position: relative;
+  margin: 0 1rem;
+}
+
+footer .row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+hr {
+  height: 0px;
+  margin: 0;
+  border: 1px solid #000000;
+}
+
+p#p1 {
+  position: absolute;
+    width: 20vw;
+    height: 34px;
+    left: 19px;
+
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 95.52%;
+
+    /* or 12px */
+
+    color: #000000;
+}
+
+p#pbreh {
+  position: absolute;
+    width: 20vw;
+    height: 34px;
+    left: calc(50vw - 10vw);
+
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 95.52%;
+
+    /* or 12px */
+
+    color: #000000;
+}
+
+p#pbigbreh {
+  position: absolute;
+  width: 20vw;
+  height: 34px;
+  left: calc(100vw - 20vw);
+
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 95.52%;
+
+  color: #000000;
+}
+
+footer p {
+  width: 20vw;
+  height: 34px;
+
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 95.52%;
+  
+  color: #000000;
+}
+
+div.main {
+  position: absolute;
+  width: 20vw;
+  height: 34px;
+  top: 5vw;
+  left: calc(100vw - 20vw);
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a.social:hover {
+  transform: translateY(-2px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a.youtube, a.youtube:hover {
+  color: #eb3223;
 }
+
+a.github, a.github:hover {
+  color: #24292e;
+}
+
+a.discord, a.discord:hover {
+  color: #7289da;
+}
+

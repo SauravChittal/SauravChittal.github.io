@@ -1,8 +1,15 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://SauravChittal.github.io",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-pdf-viewer/core": "^3.6.0",
+    "@react-pdf-viewer/default-layout": "^3.6.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,13 +17,23 @@
     "@types/node": "^16.11.43",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
+    "bootstrap": "^5.1.3",
+    "file-saver": "^2.0.5",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.4.0",
+    "react-burger-menu": "^3.0.8",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-pdf": "^5.7.2",
+    "react-router-bootstrap": "^0.26.2",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.7.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +56,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
